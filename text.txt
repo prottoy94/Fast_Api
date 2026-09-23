@@ -1,0 +1,4 @@
+cd "D:\Fast API\Insurance Prediction"
+..\myenv\Scripts\Activate.ps1
+python -m uvicorn app:app --reload
+streamlit run frontend.py
